@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font and color */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Style header */
+  .App-header {
+    background-color: #323b4d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .App-header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Style navigation */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style sections */
+  .section {
+    padding: 40px;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style individual projects */
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    margin-bottom: 10px;
+  }
+  
